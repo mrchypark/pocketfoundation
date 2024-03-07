@@ -1,0 +1,6 @@
+dbs:
+  - path: /data/data.db
+    meta-path: /etc/litestream/data
+    replicas:
+      - name: backup
+        path: /test/data
